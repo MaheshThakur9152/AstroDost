@@ -6,18 +6,6 @@ import { Button } from "@/components/ui/button"
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
-      {/* Background video */}
-      <video
-        className="absolute inset-0 w-full h-full object-cover z-0"
-        autoPlay
-        muted
-        loop
-        playsInline
-        preload="metadata"
-      >
-        <source src="/hero1.mp4" type="video/mp4" />
-      </video>
-
       {/* Background gradient with cosmic theme */}
       <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-slate-800 to-background opacity-60 z-5"></div>
       <div className="absolute top-0 right-0 w-96 h-96 bg-gold/5 rounded-full blur-3xl z-5"></div>
