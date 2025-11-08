@@ -13,8 +13,9 @@ export function Hero() {
         muted
         loop
         playsInline
+        preload="metadata"
       >
-        <source src="/herosection.mp4" type="video/mp4" />
+        <source src="/hero1.mp4" type="video/mp4" />
       </video>
 
       {/* Background gradient with cosmic theme */}
